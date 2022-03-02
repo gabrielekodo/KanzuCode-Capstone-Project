@@ -308,6 +308,11 @@ textarea:focus {
   font-weight: 500;
 }
 
+i {
+  color: #603601;
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 425px) {
   .card {
     max-width: 400px;
