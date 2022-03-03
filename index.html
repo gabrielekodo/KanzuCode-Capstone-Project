@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Ekodo Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/v5-font-face.min.css"
+        integrity="sha512-Ipf6bU2dOLSG8/16GCm8MfSEcNMAIQloGhcn+5o5FRRkmBIvShWK2IAZQX69PPd1aiZx0cZoLWTmWRSW68tPYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Poppins:ital,wght@0,200;0,500;1,100;1,200;1,400;1,600&family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&family=Rubik:wght@300;400;500&family=Urbanist:ital,wght@0,300;0,400;1,100;1,200;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,107 +30,119 @@
                 <li><a href="#welcome">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
-                <li><a href="#social">Reach me</a></li>
+                <li><a href="#contact">Send messsage</a></li>
             </ul>
         </nav>
-        <section id="welcome" class="welcome-section">
+        <div id="welcome" class="welcome-section">
             <div class="info">
                 <h1>I am Gabriel Ekodo</h1>
                 <p>Full stack Web Developer based in Kampala, Uganda. I enjoy building great stuff. </p>
-                <a href="#contacts" class="btn">Let's talk</a>
+                <a href="#contact" class="btn">Let's talk</a>
             </div>
             <div class="welcome-pic">
                 <img src="images/gabby.png" alt="welcome image">
             </div>
-        </section>
+        </div>
     </header>
 
-    <main>
-        <section id="projects">
-            <div class="title social-title">
-                <p> My Past Works</p>
+
+    <section id="projects">
+        <div class="title social-title">
+            <p> My Past Works</p>
+        </div>
+        <div class="container">
+
+            <div class="project-tile">
+                <div class="title ">Survey Form</div>
+                <div class="project-img">
+                    <a href="https://gabrielekodo-survey-form.netlify.app/" target="_blank"><img src="images/survey.JPG"
+                            alt="project screen shot"></a>
+
+                </div>
+                <div class="description">
+                    <p>Getting feedback from those we deal with daily is very important hence the need for a
+                        detailed
+                        survey form</p>
+                </div>
             </div>
-            <div class="container">
+            <div class="project-tile">
+                <div class="title">Task Manager</div>
+                <div class="project-img">
 
-                <div class="project-tile">
-                    <div class="title ">Survey Form</div>
-                    <div class="project-img">
-                        <a href="https://gabrielekodo-survey-form.netlify.app/" target="_blank"><img
-                                src="images/survey.JPG" alt="project screen shot"></a>
-
-                    </div>
-                    <div class="description">
-                        <p>Getting feedback from those we deal with daily is very important hence the need for a
-                            detailed
-                            survey form</p>
-                    </div>
+                    <a href="#"><img src="images/blob24.svg" alt="project screen shot"></a>
                 </div>
-                <div class="project-tile">
-                    <div class="title">Task Manager</div>
-                    <div class="project-img">
+                <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing
+                    voluptates totam autem quod id </div>
+            </div>
+            <div class="project-tile">
+                <div class="title">Survey Form</div>
+                <div class="project-img">
 
-                        <a href="#"><img src="images/blob24.svg" alt="project screen shot"></a>
-                    </div>
-                    <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing
-                        voluptates totam autem quod id </div>
+                    <a href="#"><img src="images/survey.JPG" alt="project screen shot"></a>
                 </div>
-                <div class="project-tile">
-                    <div class="title">Survey Form</div>
-                    <div class="project-img">
+                <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing e
+                    dolore quo reiciendis, veritatis .</div>
+            </div>
+        </div>
 
-                        <a href="#"><img src="images/survey.JPG" alt="project screen shot"></a>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="card-container">
+
+            <div class="card">
+                <h1 class="title social-title">Send me a message</h1>
+                <form>
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
                     </div>
-                    <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio obcaecati
-                        dolore quo reiciendis, veritatis .</div>
-                </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="Phone" placeholder="Your phone" required>
+                    </div>
+                    <div class="form-control">
+                        <p>Your message</p>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your message"
+                            required></textarea>
+                    </div>
+                    <div class="form-control">
+                        <input type="submit" value="Submit message">
+                    </div>
+
+                </form>
             </div>
             <div id="social" class="social">
                 <div class="social-title">Get in touch via</div>
                 <ul class="social-icons">
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    <li><a href="https://twitter.com/kingekodo" target="_blank"><img src="images/twitter.svg"
+                                alt="twitter logo" class="icon">
+                        </a></li>
+                    <li><a href="https://facebook.com/gabrielekodo.16" target="_blank"><img src="images/facebook .svg"
+                                alt="facebook logo" class="icon"></a></li>
+
+                    <li><a href="https://github.com/gabrielekodo" target="_blank"><img src="images/github.svg"
+                                alt="Github logo" class="icon">
                         </a></li>
 
 
-                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 
-                    <li><a href="#"><i class="fa fa-github"></i>
-                        </a></li>
-
-
-                    <li><a href="mailto:ekodogabriel@gmail.com"><i class="fa fa-envelope"
-                                aria-hidden="true"></i>Email</a></li>
-
-
-                    <li><a href="tel:+256700162767"><i class="fa fa-phone" aria-hidden="true"></i>Call </a></li>
                 </ul>
             </div>
-        </section>
-    </main>
-    <section class="footer" id="contact">
-        <h1 class="title social-title">Send me a message</h1>
-        <div class="card">
-            <form>
-                <div class="form-control">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your name" required>
-                </div>
-                <div class="form-control">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your email" required>
-                </div>
-                <div class="form-control">
-                    <label for="phone">Phone</label>
-                    <input type="text" id="Phone" placeholder="Your phone" required>
-                </div>
-                <div class="form-control">
-                    <p>Your message</p>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
-                </div>
-                <div class="form-control">
-                    <input type="submit" value="Submit message">
-                </div>
+        </div>
+        <div id="footer-para" class="social lg">
+            <p>&copy;2022 Gabriel Ekodo</p>
+            <div class="title"> Send Email:<a href="mailto:ekodogabriel@gmail.com"><i class="fa fa-envelope fa-2x"
+                        aria-hidden="true"></i>&nbsp; ekodogabriel@gmail.com</a> OR CALL:<a href="tel:+256700162767"><i
+                        class="fa fa-phone-square fa-2x" aria-hidden="true"></i>&nbsp;+256700162767
+                </a></div>
 
-            </form>
+
+
         </div>
     </section>
 </body>
